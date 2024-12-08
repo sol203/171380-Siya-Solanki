@@ -7,11 +7,11 @@ extern int globalvar;
 int main()
 {
     //access the external variable
-    cout<< "In main, glovalVar: " << globalvar << end1;
+    cout<< "In main, glovalVar: " << globalvar << endl;
 
     //modify the external variable
     globalvar = 200;
-    cout <<"In main after modification, globalVar:" <<globalvar << end1;
+    cout <<"In main after modification, globalVar:" <<globalvar << endl;
 
     return 0;
 }
